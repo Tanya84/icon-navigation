@@ -5,22 +5,21 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  box-sizing: border-box;
-  font family: "Abhaya Libre", serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: "Abhaya Libre", serif;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-
-
 .logo {
   color: #fff;
+  text-align: center;
 }
 
 .masthead {
@@ -29,11 +28,33 @@ html {
 
 .btn {
   background-color: #15114c;
-
-{
+  text-decoration: none;
+  border-radius: 5px;
+  border-style: none;
 
 }
 
 img {
   display: block;
+}
+
+.nav {
+  text-align: center;
+}
+
+@media only screen and (min-width: 60em) {
+
+  li {
+    color: #fff;
+
+  }
+
+  .nav {
+    text-align: right;
+
+  }
+
+  .logo {
+    text-align: left;
+  }
 }
