@@ -17,14 +17,7 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-}
 
-.img-flex {
-  display: block;
-  width: 100%;
-}
 
 .logo {
   color: #fff;
@@ -37,10 +30,10 @@ body {
 .btn {
   background-color: #15114c;
 
+{
+
 }
 
-a {
-  text-decoration: none;
-  color: #fff;
-
+img {
+  display: block;
 }
